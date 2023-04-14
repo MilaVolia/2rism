@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <title>2rism</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container container--header">
+      <nav class="nav">
+        <a class="logo" href="#!">
+          <img src="./img/logo/logo.svg" alt="logo">
+        </a>
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link nav-list__link--active" href="#">home</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">hotels</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">restaurants</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">tours</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">destinations</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">activities</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">contact</a>
+          </li>
+        </ul>
+        <div class="user">
+          <div class="user__content">
+           <span class="user__greeting">Holla,</span> 
+           <span class="user__name">Ales Nesetril</span>
+          </div>
+          <div class="user__avatar">
+            <img class="user__img" src="./img/header/user.jpg" alt="user avatar">
+          </div>
+        </div>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title">Discover the most engaging places</h1>
+        <button class="button button--huge">
+          <img src="./img/icons/global.svg" alt="global">
+          Discover on 3D Globe</button>
+      </div>
+      <form class="form" action="">
+        <div class="form__input-wrapper form__input--location">
+          <label class="form__label" for="location">Location</label>
+          <input placeholder="Explore nearby destinations" class="form__input" type="text" id="location">
+        </div>
+
+        <div class="form__input-wrapper form__input--activity">
+          <label class="form__label" for="activity">Activity</label>
+          <select class="form__select" name="activity" id="activity">
+            <option value="all">All Activities</option>
+            <option value="Culter">Culter</option>
+            <option value="Sport">Sport</option>
+            <option value="Extreme">Extreme</option>
+          </select>
+        </div>
+
+        <div class="form__input-wrapper form__input--date">
+          <label class="form__label" for="date">When</label>
+          <input placeholder="Choose a Date" class="form__input" type="date" id="date">
+        </div>
+
+        <div class="form__input-wrapper form__input--guests">
+          <label class="form__label" for="location">Guests</label>
+        <select class="form__select" name="" id="">
+          <option value="">1 guest</option>
+          <option value="">2 guest</option>
+          <option value="">3 guest</option>
+          <option value="">4 guest</option>
+        </select>
+        </div>
+
+        <button class="button button__search">
+          <img src="./img/icons/search.svg" alt="Search">
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+    <!--  Poppular -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="title-1">Popular Destinations</h2>
+        </div>
+        <div class="section__cards section__cards--popular">
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/01.jpg" alt="Img">
+            <h3 class="card__title">Big Sur</h3>
+            <a class="card__location" href="#!">California, USA</a>
+          </div>
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/02.jpg" alt="Img">
+            <h3 class="card__title">Prescott</h3>
+            <a class="card__location" href="#!">Arizona, USA</a>
+          </div>
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/03.jpg" alt="Img">
+            <h3 class="card__title">Fort Mayers</h3>
+            <a class="card__location" href="#!">Florida, USA</a>
+          </div>
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/04.jpg" alt="Img">
+            <h3 class="card__title">Tucson</h3>
+            <a class="card__location" href="#!">Arizona, USA</a>
+          </div>
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/05.jpg" alt="Img">
+            <h3 class="card__title">St. Joseph</h3>
+            <a class="card__location" href="#!">Michigan, USA</a>
+          </div>
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img" src="./img/popular/06.jpg" alt="Img">
+            <h3 class="card__title">Madrid</h3>
+            <a class="card__location" href="#!">Spain</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hotels -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="title-1">Hotels and Restaurants</h2>
+          <a class="button-more" href="#">View all
+            <img src="./img/icons/arrow-more.svg" alt="Arrow">
+          </a>
+        </div>
+        <div class="section__cards section__cards--hotels">
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--hotel" src="./img/hotels/01.jpg" alt="Img">
+            <h3 class="card__title card__title--hotel">Monastero Santa Rosa Hotel & Spa</h3>
+
+            <footer class="card__footer">
+              <a class="card__location card__location--icon" href="#!">Salerno, Italy</a>
+              <div class="card__rating">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star-line.svg" alt="star">
+              </div>
+            </footer>
+      </div>
+
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--hotel" src="./img/hotels/02.jpg" alt="Img">
+            <h3 class="card__title card__title--hotel">Monastero Santa Rosa Hotel & Spa</h3>
+
+            <footer class="card__footer">
+              <a class="card__location card__location--icon" href="#!">Salerno, Italy</a>
+              <div class="card__rating">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star-line.svg" alt="star">
+              </div>
+            </footer>
+      </div>
+
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--hotel" src="./img/hotels/03.jpg" alt="Img">
+            <h3 class="card__title card__title--hotel">Monastero Santa Rosa Hotel & Spa</h3>
+
+            <footer class="card__footer">
+              <a class="card__location card__location--icon" href="#!">Salerno, Italy</a>
+              <div class="card__rating">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star-line.svg" alt="star">
+              </div>
+            </footer>
+      </div>
+      
+          <div class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--hotel" src="./img/hotels/04.jpg" alt="Img">
+            <h3 class="card__title card__title--hotel">Monastero Santa Rosa Hotel & Spa</h3>
+
+            <footer class="card__footer">
+              <a class="card__location card__location--icon" href="#!">Salerno, Italy</a>
+              <div class="card__rating">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star.svg" alt="star">
+                <img src="./img/icons/star-line.svg" alt="star">
+              </div>
+            </footer>
+      </div>
+    </section>
+
+    <!-- Activities -->
+
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="title-1">Activities</h2>
+          <a class="button-more" href="#">View all
+            <img src="./img/icons/arrow-more.svg" alt="Arrow">
+          </a>
+        </header>
+        <div class="section__cards section__cards--hotels">
+
+          <article class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--activities" src="./img/activity/01.jpg" alt="Img">
+            <h3 class="card__title card__title--activities">Sailing</h3>
+      </article>
+          <article class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--activities" src="./img/activity/02.jpg" alt="Img">
+            <h3 class="card__title card__title--activities">Climbing</h3>
+      </article>
+          <article class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--activities" src="./img/activity/03.jpg" alt="Img">
+            <h3 class="card__title card__title--activities">Skiing</h3>
+      </article>
+          <article class="card">
+            <a class="card__link" href="#"></a>
+            <img class="card__img card__img--activities" src="./img/activity/04.jpg" alt="Img">
+            <h3 class="card__title card__title--activities">Hiking</h3>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
